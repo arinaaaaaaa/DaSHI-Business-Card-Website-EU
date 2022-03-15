@@ -1,0 +1,48 @@
+.answer { border-bottom: 1px solid #CBCBCB; }
+.answer:last-child { border-bottom: none; }
+.questionSection {
+    height: 52px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    font-family: 'gilroy';
+    font-size: 17px;
+    line-height: 25.5px;
+    color: #2B1A51;
+}
+.questionSection img { margin-left: 20px;}
+.answerSection {
+    box-sizing: border-box;
+    padding: 33px 41px;
+    background-color: #F6F6F6;
+}
+.listItem {
+    display: flex;
+    align-items:center;
+    margin-bottom: 10px;
+}
+.listItem p {
+    margin-left: 20px;
+    font-family: 'gilroy-light';
+    font-size: 13px;
+    color: #2B1A51;
+}
+.listItem a {
+    font-family: 'gilroy-light';
+    font-size: 13px;
+    color: #2B1A51;
+    margin-left: 23px;
+}
+
+.listItemAbout { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px 0px;
+    border-bottom: 1px solid #CBCBCB;
+}
+.listItemAbout p { 
+    font-family: 'gilroy-regular';
+    font-size: 18px;}
